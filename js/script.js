@@ -8,6 +8,8 @@ function init(){
    alert("Sneha Sunil Patil :" + input.value);
 
 
+   var outputresult = document.getElementById('textoutput');
+   outputresult.innerHTML = inputentry;
  }
 
    var clickbutton = document. getElementById('entrybutton');
