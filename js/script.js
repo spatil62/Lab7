@@ -1,18 +1,18 @@
 function init(){
 //add your javascrip between these two lines of code
  //window.addEventListener("click",myfunction);
- function myfunction()
+ function myTaskFunction()
  {
 
-   var input = document.getElementById('entryinput');
-   alert("Sneha Sunil Patil :" + input.value);
+   var inputval = document.getElementById('entryinput');
 
+   var outputval = document.getElementById('textoutput');
+   alert("Sneha Sunil Patil :" + inputval.value);
 
-   var outputresult = document.getElementById('textoutput');
-   outputresult.innerHTML = inputentry;
+   outputval.innerHTML = inputval;
  }
 
    var clickbutton = document. getElementById('entrybutton');
-   clickbutton.addEventListener('click' , myfunction);
+   clickbutton.addEventListener('click', myTaskFunction);
 }
 window.addEventListener('load', init);
